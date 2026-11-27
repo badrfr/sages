@@ -1,14 +1,14 @@
-# SAGES — site de démonstration
+# SAGES
 
-Maquette de modernisation sobre, avec rubriques à gauche, fil d'actualité à droite, logos officiels et pétition pour la réintégration d'un PRCE de Nanterre.
+Site statique du Syndicat des agrégés de l’enseignement supérieur et archives consultables depuis la rubrique Ressources et archives.
 
 ## Publication
 
-Une action GitHub Pages publie le site à chaque modification de `main` si Pages est activé et si le workflow possède les autorisations nécessaires.
+Le workflow GitHub Pages publie le site à chaque modification de `main`.
 
-## Avant toute utilisation officielle
+## Archives et formulaires
 
-- Le formulaire de newsletter est à configurer dans `assets/brevo-config.js`, avec l'URL publique du formulaire Brevo du SAGES. Sans cette URL, l'inscription n'est pas active.
-- Le fil d'actualité est une maquette et n'est pas synchronisé automatiquement avec le site historique.
-- Les mentions légales et la confidentialité doivent être vérifiées.
-- **Ne pas considérer ce dépôt comme une migration des archives du site officiel** : les anciens documents et pages demeurent hébergés sur le-sages.org.
+- Les pages, documents et images d’archives récupérés sont hébergés dans ce dépôt. Les liens du SAGES intégrés aux PDF pointent vers le site GitHub Pages. Les pages imprimées des documents d’archives sont conservées.
+- Les anciennes adresses dont le contenu reste introuvable renvoient à la page des archives indisponibles.
+- Les flux RSS contiennent les actualités disponibles à la date de la migration. Le contenu doit être actualisé dans le dépôt.
+- Les inscriptions à la newsletter utilisent le formulaire Brevo configuré dans `assets/brevo-config.js`.
