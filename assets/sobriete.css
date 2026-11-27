@@ -21,6 +21,12 @@ a:focus-visible { outline:3px solid #db9e31; outline-offset:3px; }
 .petition-notice { border-left:3px solid var(--blue); background:#f3f6f9; padding:9px 13px; margin-top:12px; }
 .petition-notice strong { font-size:13px; color:var(--blue); }
 .petition-notice p { margin:3px 0 0; font-size:13px; }
+.petition-notice h2 { margin:0 0 6px; font-size:14px; }
+.petition-item { display:flex; align-items:center; gap:12px; }
+.petition-item + .petition-item { margin-top:8px; padding-top:7px; border-top:1px solid var(--line); }
+.petition-image { display:block; flex:none; line-height:0; }
+.petition-image img { display:block; width:78px; height:auto; }
+@media (max-width:440px) { .petition-item { align-items:flex-start; gap:9px; } .petition-image img { width:65px; } }
 .home-layout { display:grid; grid-template-columns: minmax(265px, 38%) minmax(0, 1fr); gap:22px; padding-block:16px 24px; }
 h1,h2 { color:var(--blue); margin:0 0 9px; line-height:1.2; }
 h1 { font-size:20px; } h2 { font-size:20px; }
