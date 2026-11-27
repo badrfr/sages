@@ -40,6 +40,11 @@ h1 { font-size:20px; } h2 { font-size:20px; }
 .social-links a { display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:4px; }
 .social-links a:hover { background:#edf3f7; }
 .social-links img { max-width:31px; max-height:29px; object-fit:contain; }
+.about-sages { margin-top:12px; border-top:1px solid var(--line); padding-top:12px; }
+.about-sages h2 { font-size:16px; margin-bottom:4px; }
+.about-links { display:grid; grid-template-columns:1fr; }
+.about-links a { display:block; font-size:13px; padding:5px 3px; border-bottom:1px solid #e4e9ed; text-decoration:none; }
+.about-links a:hover { background:#f4f7fa; text-decoration:underline; }
 .section-title { display:flex; justify-content:space-between; gap:10px; align-items:baseline; border-bottom:1px solid var(--line); }
 .section-title a { font-size:13px; }
 .source-note { margin:8px 0 4px; color:var(--muted); font-size:12px; }
