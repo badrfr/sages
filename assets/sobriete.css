@@ -1,0 +1,60 @@
+/* Présentation compacte, cohérente avec l'organisation historique du SAGES. */
+:root { color-scheme: light; --blue:#183d66; --link:#164a7e; --line:#c9d3de; --muted:#4b5c6c; }
+* { box-sizing: border-box; }
+html { font-family: Arial, Helvetica, sans-serif; }
+body { margin:0; color:#1a2733; background:#fff; font-size:15px; line-height:1.42; }
+a { color:var(--link); }
+a:focus-visible { outline:3px solid #db9e31; outline-offset:3px; }
+.wrap { width:min(1120px, 100% - 32px); margin-inline:auto; }
+.skip { position:absolute; top:-100px; left:12px; padding:8px; background:white; z-index:10; }
+.skip:focus { top:10px; }
+.site-head { display:flex; justify-content:space-between; align-items:center; gap:16px; padding-block:16px; border-bottom:2px solid var(--blue); }
+.identity { display:flex; gap:15px; align-items:center; }
+.brand-logo { flex:none; display:block; line-height:0; }
+.brand-logo img { display:block; background:#111; border-radius:3px; object-fit:contain; }
+.identity-copy { max-width:560px; }
+.owl { object-fit:contain; flex:none; }
+.brand { font-size:32px; color:var(--blue); letter-spacing:-1px; font-weight:800; text-decoration:none; }
+.subtitle { font-size:13px; font-weight:bold; margin:0; }
+.secondary { font-weight:normal; color:var(--muted); }
+.head-actions { display:flex; flex-wrap:wrap; gap:14px; font-size:14px; }
+.petition-notice { border-left:3px solid var(--blue); background:#f3f6f9; padding:9px 13px; margin-top:12px; }
+.petition-notice strong { font-size:13px; color:var(--blue); }
+.petition-notice p { margin:3px 0 0; font-size:13px; }
+.home-layout { display:grid; grid-template-columns: minmax(265px, 38%) minmax(0, 1fr); gap:22px; padding-block:16px 24px; }
+h1,h2 { color:var(--blue); margin:0 0 9px; line-height:1.2; }
+h1 { font-size:20px; } h2 { font-size:20px; }
+.rubriques { border-right:1px solid var(--line); padding-right:20px; }
+.rubric-list { display:grid; }
+.rubric-list a { display:flex; gap:5px; justify-content:space-between; align-items:baseline; border-bottom:1px solid #e4e9ed; padding:11px 3px; text-decoration:none; }
+.rubric-list a:hover { background:#f4f7fa; text-decoration:underline; }
+.rubric-list strong { font-size:14px; }
+.rubric-list span { font-size:12px; color:var(--muted); text-align:right; }
+.social-links { display:flex; flex-wrap:wrap; align-items:center; gap:7px; padding:12px 2px 2px; }
+.social-links a { display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:4px; }
+.social-links a:hover { background:#edf3f7; }
+.social-links img { max-width:31px; max-height:29px; object-fit:contain; }
+.section-title { display:flex; justify-content:space-between; gap:10px; align-items:baseline; border-bottom:1px solid var(--line); }
+.section-title a { font-size:13px; }
+.source-note { margin:8px 0 4px; color:var(--muted); font-size:12px; }
+.news-entry { border-bottom:1px solid #e4e9ed; padding:12px 0; }
+.news-entry time { font-size:12px; color:var(--muted); }
+.news-entry h3 { margin:2px 0; font-size:15px; line-height:1.3; }
+.news-entry p { margin:3px 0; font-size:13px; }
+.fil-links { display:flex; gap:20px; font-size:13px; padding-top:13px; }
+.footer { background:#eaf0f5; border-top:1px solid var(--line); padding:22px 0; }
+.footergrid { display:grid; grid-template-columns:2fr 1fr 1fr; gap:24px; }
+.footer h2 { font-size:14px; } .footer p { font-size:13px; margin:0; }
+@media (max-width:760px) {
+  .site-head { align-items:flex-start; flex-direction:column; padding-block:12px; }
+  .identity { gap:10px; }
+  .brand-logo img { width:73px; height:62px; }
+  .owl { width:37px; height:58px; }
+  .home-layout { grid-template-columns:1fr; gap:17px; padding-top:10px; }
+  .rubriques { border-right:0; border-bottom:2px solid var(--line); padding-right:0; padding-bottom:14px; }
+  .rubric-list { grid-template-columns:1fr 1fr; gap:0 12px; }
+  .rubric-list a { display:block; padding-block:9px; }
+  .rubric-list span { display:none; }
+  .footergrid { grid-template-columns:1fr 1fr; }
+}
+@media (max-width:440px) { .rubric-list { grid-template-columns:1fr 1fr; }.rubric-list strong { font-size:13px; }.footergrid{grid-template-columns:1fr} }

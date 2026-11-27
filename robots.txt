@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /newsletter/
+Sitemap: https://le-sages.org/sitemap.xml

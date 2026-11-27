@@ -1,0 +1,15 @@
+/* Ajustements des pages intérieures de la version précédente. */
+.top { display:none; }
+.header { position:static; box-shadow:none; }
+.navrow { padding-top:10px; padding-bottom:10px; }
+.mark { font-size:1.3rem; }
+.pagehead { padding:22px 0; background:#eff3f7; }
+.pagehead h1 { font-size:1.8rem; }
+.pagehead p { margin:4px 0; }
+.section { padding:26px 0; }
+.content { margin:24px auto 35px; }
+.card { border-radius:4px; padding:18px; box-shadow:none; }
+.feature { border-radius:0; padding:15px; }
+.grid { gap:12px; }
+.footer { padding:26px 0; }
+.pill { border-radius:3px; }
