@@ -50,7 +50,7 @@
         <a href="actualites.html"><strong>Actualités syndicales</strong><span>Communiqués et positions</span></a>
         <a href="droits.html"><strong>Vos droits et statuts</strong><span>Textes, services et carrières</span></a>
         <a href="elections.html"><strong>Élections professionnelles 2026</strong><span>Listes et professions de foi</span></a>
-        <a href="https://le-sages.org/documents_base.html"><strong>Documentation</strong><span>Textes de référence</span></a>
+        <a href="ressources.html"><strong>Documentation et archives</strong><span>Toutes les rubriques historiques</span></a>
         <a href="https://le-sages.org/messages.html"><strong>Bulletin MESSAGES</strong><span>Publications et archives</span></a>
         <a href="adhesion.html"><strong>Adhésion</strong><span>Informations pratiques</span></a>
         <a href="newsletter.html"><strong>Lettre d'information</strong><span>Inscription gratuite avec Brevo</span></a>
@@ -76,6 +76,35 @@
           <a href="https://le-sages.org/agregation.html">Sur l'agrégation</a>
           <a href="https://le-sages.org/strategie.html">Notre stratégie</a>
         </nav>
+      </section>
+      <section class="restored-sections" aria-labelledby="restored-titre">
+        <h2 id="restored-titre">Accès historiques</h2>
+        <details><summary>Actualités et publications</summary>
+          <nav class="about-links" aria-label="Actualités et publications historiques">
+            <a href="https://le-sages.org/fil_actualites_2025_2026.html">Fil complet d'actualités</a>
+            <a href="https://le-sages.org/bulletins_officiels.html">Bulletins officiels EN et MESR</a>
+            <a href="https://le-sages.org/actualites_administratives_second_degre.html">Informations administratives : second degré</a>
+            <a href="https://le-sages.org/actualites_administratives_ens_sup.html">Informations administratives : supérieur</a>
+            <a href="https://le-sages.org/messages.html">Tous les numéros de MESSAGES</a>
+            <a href="https://le-sages.org/lettre_info_SAGES.html">Archives des lettres mensuelles</a>
+          </nav>
+        </details>
+        <details><summary>Information et documentation</summary>
+          <nav class="about-links" aria-label="Documentation historique">
+            <a href="https://le-sages.org/propositions_revendications.html">Propositions et revendications</a>
+            <a href="https://le-sages.org/ORS_PRAG_PRCE.html">Obligations de service PRAG/PRCE</a>
+            <a href="https://le-sages.org/debats_controverses.html">Débats et controverses</a>
+            <a href="https://le-sages.org/bibliographie.html">Bibliographie</a>
+            <a href="https://le-sages.org/documents_base.html">Documents administratifs de base</a>
+          </nav>
+        </details>
+        <a class="restored-direct" href="https://le-sages.org/liens.html">Liens utiles</a>
+        <a class="restored-direct" href="ressources.html">Toutes les ressources et archives</a>
+        <form id="search-sages" class="site-search" role="search" action="https://www.google.com/search" method="get">
+          <label for="search-sages-q">Rechercher sur le site historique</label>
+          <input id="search-sages-q" type="search" name="q" placeholder="Mots-clés" required>
+          <button type="submit">Rechercher</button>
+        </form>
       </section>
     </section>
 
@@ -114,5 +143,11 @@
       <section><h2>Contact et informations</h2><p><a href="mailto:sages.syndicat@gmail.com">Contacter le SAGES</a><br><a href="mentions-legales.html">Mentions légales</a></p></section>
     </div>
   </footer>
+<script>
+document.getElementById('search-sages').addEventListener('submit', function (event) {
+  const input = document.getElementById('search-sages-q');
+  input.value = 'site:le-sages.org ' + input.value.trim();
+});
+</script>
 </body>
 </html>
