@@ -45,6 +45,17 @@ h1 { font-size:20px; } h2 { font-size:20px; }
 .about-links { display:grid; grid-template-columns:1fr; }
 .about-links a { display:block; font-size:13px; padding:5px 3px; border-bottom:1px solid #e4e9ed; text-decoration:none; }
 .about-links a:hover { background:#f4f7fa; text-decoration:underline; }
+.restored-sections { margin-top:12px; border-top:1px solid var(--line); padding-top:10px; }
+.restored-sections h2 { font-size:16px; margin-bottom:7px; }
+.restored-sections details { border-bottom:1px solid #e4e9ed; padding:5px 2px; }
+.restored-sections summary { cursor:pointer; color:var(--link); font-size:13px; font-weight:bold; }
+.restored-sections details .about-links { padding:5px 0 4px 10px; }
+.restored-direct { display:block; padding:6px 2px; border-bottom:1px solid #e4e9ed; font-size:13px; }
+.site-search { margin-top:12px; display:flex; flex-wrap:wrap; align-items:center; gap:6px; }
+.site-search label { font-size:12px; width:100%; color:var(--muted); }
+.site-search input { min-width:0; flex:1; padding:7px; border:1px solid var(--line); font:inherit; }
+.site-search button { padding:7px 9px; background:#edf3f7; color:var(--blue); border:1px solid var(--line); cursor:pointer; font:inherit; font-size:13px; }
+.site-search button:hover { background:#dae7f2; }
 .section-title { display:flex; justify-content:space-between; gap:10px; align-items:baseline; border-bottom:1px solid var(--line); }
 .section-title a { font-size:13px; }
 .source-note { margin:8px 0 4px; color:var(--muted); font-size:12px; }
