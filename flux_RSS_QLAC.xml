@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Fil d'actualité du SAGES</title>
+<link>https://badrfr.github.io/sages/index_qlac.html</link>
+<description>Nos derniers articles et communiqués</description>
+<image>
+<url>https://badrfr.github.io/sages/logo_QLAC.png</url>
+<link>https://badrfr.github.io/sages/index_qlac.html</link>
+</image>
+<item>
+<title>Conférence du Conseil de l’Europe sur la liberté académique, « des défis à une protection renforcée », les 25 et 26 novembre 2026, avec le président du SAGES et deux de ses coauteurs d’un article sur la liberté académique</title>
+<link>https://badrfr.github.io/sages/documents2/ConferenceConseilEuropeLiberteAcademique25-26novembre2026.pdf</link>
+<guid>https://badrfr.github.io/sages/documents2/ConferenceConseilEuropeLiberteAcademique25-26novembre2026.pdf</guid>
+<pubDate>25/11/2026</pubDate>
+</item>
+
+<item>
+<title>« Les abus et les fraudes aux aides à l'apprentissage », rapport de la Cour des comptes</title>
+<link>https://www.ccomptes.fr/fr/publications/les-abus-et-les-fraudes-aux-aides-lapprentissage</link>
+<guid>https://www.ccomptes.fr/fr/publications/les-abus-et-les-fraudes-aux-aides-lapprentissage</guid>
+<pubDate>25/11/2026</pubDate>
+</item>
+
+<item>
+<title>IA et éducation : une résolution mondiale pour la protection des données (CNIL)</title>
+<link>https://www.cnil.fr/fr/gpa-ia-education</link>
+<guid>https://www.cnil.fr/fr/gpa-ia-education</guid>
+<pubDate>21/11/2026</pubDate>
+</item>
+
+<item>
+<title>Arrêté du 28/10/2026 portant organisation du scrutin pour le renouvellement du Conseil national des astronomes et physiciens</title>
+<link>https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055112011</link>
+<guid>https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055112011</guid>
+<pubDate>20/11/2026</pubDate>
+</item>
+
+<item>
+<title>Arrêté du 28/10/2026 fixant les modalités de recensement des enseignants-chercheurs optant pour la procédure spécifique d'avancement de grade</title>
+<link>https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075513</link>
+<guid>https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075513</guid>
+<pubDate>10/11/2026</pubDate>
+</item>
+
+<item>
+<title>« Les bibliothèques universitaires sont envahies par des robots IA, mettant en danger l'accès du public » (CBC) </title>
+<link>https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287</link>
+<guid>https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287</guid>
+<pubDate>10/11/2026</pubDate>
+</item>
+
+<item>
+<title>« Les universités au cœur de la nouvelle norme européenne en matière de la littératie en IA » (Conseil de l'Europe)</title>
+<link>https://www.coe.int/fr/web/education/-/universities-at-the-heart-of-europe-s-new-standard-on-ai-literacy</link>
+<guid>https://www.coe.int/fr/web/education/-/universities-at-the-heart-of-europe-s-new-standard-on-ai-literacy</guid>
+<pubDate>8/11/2026</pubDate>
+</item>
+
+</channel>
+</rss>
