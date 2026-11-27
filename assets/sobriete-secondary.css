@@ -35,3 +35,10 @@
   .grid, .grid.two { grid-template-columns:1fr; }
   .section { padding:12px 0 24px; }
 }
+
+.resources-layout { padding-top:12px; padding-bottom:24px; }
+.resource-group { border-bottom:1px solid var(--line); padding:10px 0; }
+.resource-group h2 { margin:0 0 7px; font-size:17px; }
+.resource-group ul { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:4px 24px; margin:0; padding:0; list-style:none; }
+.resource-group li { margin:0; padding:5px 0; border-bottom:1px solid #e4e9ed; font-size:13px; }
+@media(max-width:760px) { .resource-group ul { grid-template-columns:1fr; } }
